@@ -1,1 +1,1 @@
-# calc-js
+basic calculator in JavaScript
