@@ -1,0 +1,28 @@
+.calcGrid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 35vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(7,100px);
+}
+
+.calcGrid>button{
+    font-size: 3rem;
+}
+
+.myResult{
+    text-align: center;
+    font-size: 5rem;
+    height: 100px;
+}
+
+.showEx{
+    text-align: center;
+    font-size: 1rem;
+    height: 50px;
+}
+
+.myEquals{
+    grid-column: span 4;
+}

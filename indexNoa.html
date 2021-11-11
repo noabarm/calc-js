@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script src="noaCalc.js"></script>
+    <title>My Calculator</title>
+</head>
+<body onload="init()">
+    <center>
+        <div class="showEx" id="showEx"></div>
+        <div class="myResult" id="res"></div>
+        <div class="calcGrid">
+            <button onclick="num(7)">7</button>
+            <button onclick="num(8)">8</button>
+            <button onclick="num(9)">9</button>
+            <button onclick="opr('/')">/</button>
+            <button onclick="num(4)">4</button>
+            <button onclick="num(5)">5</button>
+            <button onclick="num(6)">6</button>
+            <button onclick="opr('*')">*</button>
+            <button onclick="num(1)">1</button>
+            <button onclick="num(2)">2</button>
+            <button onclick="num(3)">3</button>
+            <button onclick="opr('-')">-</button>
+            <button onclick="clrAll()">clr</button>
+            <button onclick="num(0)">0</button>
+            <button onclick="opr('.')">.</button>
+            <button onclick="opr('+')">+</button>
+            <button onclick="opr('√')">√</button>
+            <button onclick="opr('^')">^</button>
+            <button onclick="opr('^2')">^2</button>
+            <button onclick="opr('!')">!</button>
+            <button onclick="opr('=')" class="myEquals">=</button>
+        </div>
+    </center>
+</body>
+</html>
